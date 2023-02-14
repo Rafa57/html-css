@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #c3e4e2;
+            margin: 0px;
+        }
+
+        header {
+            text-align: center;
+            background-color: #add6da;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h1 {
+            color: #3a5452;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            background-color: #519d97;
+            padding: 8px;
+            border-radius: 4px;
+            box-shadow: 2px 2px 4px #00000043;
+        }
+
+        nav > a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: #eff7f8;
+            font-weight: bold;
+            background-color: #4e8c87;
+            width: 60px;
+            height: 25px;
+            border-radius: 5px;
+            box-shadow: 1px 1px 4px #00000043;
+        }
+
+        nav > a:hover {
+            color: #415b59;
+            background-color: #9bd6de;
+            transition: .4s;
+        }
+
+        main {
+            background-color: #add6da;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article {
+            background-color: #8acac7;
+            padding: 10px;
+            border-radius: 0px 15px;
+            box-shadow: 1px 1px 4px #00000043;
+        }
+
+        article > aside {
+            background-color: #519d97;
+            padding-left: 10px;
+        }
+
+        footer {
+            background-color: #4e8c87;
+            color: #eff7f8;
+            text-align: center;
+            padding: 5px;
+            margin: auto;
+            width: 180px;
+            border-radius: 4px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        #bola {
+            height: 100px;
+            width: 100px;
+            background-color: #519d97;
+            margin: 20px;
+            border: 4px solid #3a5452;
+            border-radius: 50%;
+        }
+
+        #bola:hover {
+            background-color: #9bd6de;
+            transition: .5s;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assunto">
+            <p>Tecnologia Ciências Programação</p>
+            <article>
+                <h2>Notícia sobre Pernambuco</h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam unde ut quasi, ullam a laudantium. Aliquid libero voluptatum voluptas, accusamus excepturi quod id. Quod fuga, totam explicabo ex natus corporis.</p>
+
+                <aside>
+                    <p>Artigo escrito por Rafael</p>
+                </aside>
+            </article>
+        </section>
+        
+        <section id="noticias">
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Rafael</p>
+    </footer>
+    <div id="bola"></div>
+
+</body>
+</html>

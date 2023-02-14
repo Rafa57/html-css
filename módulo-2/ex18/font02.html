@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Fontes Externas</title>
+
+    <style>
+         /* tipos de Formats
+                - opentype(otf)
+                -truetype(ttf)
+                - embedded-opentype
+                - truetype-aat(Apple Advanced Typography)
+                - svg
+            */
+        @font-face {
+            font-family: 'Fifties Movies';
+            src: url(Fonts/Fifties\ Movies.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        h1 {
+            font-family: 'Fifties Movies', 'Times New Roman', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae rem mollitia rerum ad at, omnis dolorem natus reiciendis laboriosam! Vel laboriosam, dignissimos id exercitationem velit ipsum quaerat animi dolorem est?</p>
+</body>
+</html>
