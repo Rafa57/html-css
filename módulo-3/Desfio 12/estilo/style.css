@@ -22,13 +22,13 @@
 
 html, body {
     min-height: 100vh;
-    background-color: darkgrey;
+    background-color: #a9a9a9;
     font-family: var(--font1);
 
 }
 
 header {
-    background-color: black;
+    background-color: #0b1748;
     color: #f1f1f1;
     text-align: center;
     
@@ -38,7 +38,7 @@ header h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--font2);
-    font-size: 10vw;
+    font-size: 8vw;
 }
 
 header p {
@@ -66,11 +66,11 @@ section {
 
 .normal {
     background-color: #fff;
-    color: black;
+    color: #000000;
 }
 
 .image {
-    background-color: darkslategrey;
+    background-color: #2f4f4f;
     color: #f1f1f1;
     padding-left: 15px;
 }
@@ -82,7 +82,7 @@ section {
 }
 
 footer {
-    background-color: black;
+    background-color: #0f0f55;
     text-align: center;
     color: #fff;
 }
