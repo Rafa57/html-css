@@ -17,6 +17,7 @@
     margin: 0px;
     padding: 0px;
     font-size: 1em;
+    background-attachment: fixed;
 }
 
 
@@ -64,6 +65,10 @@ section {
     font-size: 3.5vw;
 }
 
+section p {
+    padding-bottom: 2em;
+}
+
 .normal {
     background-color: #fff;
     color: #000000;
@@ -73,17 +78,32 @@ section {
     background-color: #2f4f4f;
     color: #f1f1f1;
     padding-left: 15px;
+    box-shadow: inset 6px 6px 13px 0px #414141;
 }
 
 .image p {
-    background-color: rgba(0, 0, 0, 0.297);
+    background-color: #00000092;
     padding: 7px 15px;
     display: inline-block;
+    text-shadow: 1.2px 1.2px 2px black;
+}
+
+#img01 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+
+#img02 {
+    background-image: url('../imagens/background002.jpg');
+    background-size: cover;
 }
 
 footer {
     background-color: #0f0f55;
     text-align: center;
     color: #fff;
+    padding-bottom: 6px;
+    padding-top: 3px;
 }
 
